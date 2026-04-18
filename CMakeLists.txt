@@ -11,6 +11,12 @@ endif()
 
 project ("MyTinySTL")
 
+# 包含头文件路径
+include_directories("${PROJECT_SOURCE_DIR}/MyTinySTL")
+
+# 寻找Test目录下的所有源文件
+file(GLOB_RECURSE TEST_SOURCES "Test/*.cpp")
+
 # 将源代码添加到此项目的可执行文件。
 add_executable (MyTinySTL "MyTinySTL.cpp" "MyTinySTL.h")
 
