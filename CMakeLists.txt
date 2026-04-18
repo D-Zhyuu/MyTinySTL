@@ -18,7 +18,7 @@ include_directories("${PROJECT_SOURCE_DIR}/MyTinySTL")
 file(GLOB_RECURSE TEST_SOURCES "Test/*.cpp")
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (MyTinySTL "MyTinySTL.cpp" "MyTinySTL.h" "MyTinySTL/type_traits.h")
+add_executable (MyTinySTL "MyTinySTL.cpp" "MyTinySTL.h" "MyTinySTL/type_traits.h" "MyTinySTL/iterator.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET MyTinySTL PROPERTY CXX_STANDARD 20)

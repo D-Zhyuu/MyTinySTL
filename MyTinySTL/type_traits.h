@@ -1,5 +1,5 @@
-#ifndef MYTINYSTL_TYPE_TRAITS_H
-#define MYTINYSTL_TYPE_TRAITS_H
+#ifndef MYTINYSTL_TYPE_TRAITS_H_
+#define MYTINYSTL_TYPE_TRAITS_H_
 
 #include <type_traits>
 
